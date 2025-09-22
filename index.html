@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TapTapGo - Fun Puzzle Adventure</title>
+    <link rel="icon" type="image/png" href="images/ICON.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/ICON.png" alt="TapTapGo Icon" class="logo-icon">
+                <span>TapTapGo</span>
+            </a>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Game Modes</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#download">Get the Game</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div id="particles-container" class="absolute inset-0 z-0 overflow-hidden"></div>
+        <div class="container" data-aos="fade-up">
+            <div class="hero-content">
+                <h1 data-aos="fade-down">TapTapGo – A Fun Puzzle Adventure for Everyone! 🎮</h1>
+                <p data-aos="fade-down" data-aos-delay="100">Five exciting game modes, colorful gameplay, and brain-boosting fun for the whole family! Test your reflexes, memory, and rhythm in this addictive puzzle game.</p>
+                <div class="cta-buttons" data-aos="fade-down" data-aos-delay="200">
+                    <a href="https://play.google.com/store/apps/details?id=com.untitledstudio.taptapgo" target="_blank" class="btn btn-primary"><i class="fab fa-google-play"></i> Get it on Google Play</a>
+                    <button onclick="shareGame()" class="btn btn-secondary"><i class="fas fa-share"></i> Share with Friends</button>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-down" data-aos-delay="300">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgYhX6M-4otRHWPLvuIOgijHcs-Ta4ukhKeD9KvEBe8F-fLUKJLBDrD7uVdQF1P-kg7u1DwqZVSTiojruoIGiL1_CICJpRqX9gloy3pCyU3TacrDbaJgDWU0u-b3qkZBJ6xANlWADvWkEuWnhqyDn4tZy470UP2qYTrDE83a24GNo7vkNQ0mu2BuD6LDCX/s1600/TAP-TAP%20TITLE%20%281%29.png" alt="Game Screenshot">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 data-aos="fade-down">5 Exciting Game Modes 🎯</h2>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-down" data-aos-delay="100">
+                    <i class="fas fa-circle-play"></i>
+                    <h3>Stop & Go</h3>
+                    <p>Tap green buttons to score points, avoid the red ones, and build awesome combos!</p>
+                </div>
+                <div class="feature-card" data-aos="fade-down" data-aos-delay="200">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <h3>Match It</h3>
+                    <p>Flip tiles to reveal colors and match pairs before you run out of moves.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-down" data-aos-delay="300">
+                    <i class="fas fa-sync"></i>
+                    <h3>Copy It</h3>
+                    <p>Watch, memorize, and repeat the sequence. Test your memory skills!</p>
+                </div>
+                <div class="feature-card" data-aos="fade-down" data-aos-delay="400">
+                    <i class="fas fa-music"></i>
+                    <h3>Rhythm Tap</h3>
+                    <p>Stay in sync with the beat as colors fall from above. Feel the rhythm!</p>
+                </div>
+                <div class="feature-card" data-aos="fade-down" data-aos-delay="500">
+                    <i class="fas fa-eye"></i>
+                    <h3>See It</h3>
+                    <p>Spot the odd-colored tile in a growing grid. Race against time!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <h2 data-aos="fade-up">Game Screenshots</h2>
+            <div class="carousel-container" data-aos="fade-up" data-aos-delay="100">
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <img src="images/Phone promo (1).png" alt="Screenshot 1">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Phone promo (2).png" alt="Screenshot 2">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Phone promo (3).png" alt="Screenshot 3">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Phone promo (4).png" alt="Screenshot 4">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Phone promo (5).png" alt="Screenshot 5">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Phone promo (6).png" alt="Screenshot 6">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Phone promo (7).png" alt="Screenshot 7">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Phone promo (8).png" alt="Screenshot 8">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/Phone promo (1).png" alt="Screenshot 1">
+                    </div>
+                </div>
+                <div class="carousel-navigation">
+                    <button class="carousel-button prev" aria-label="Previous slide">&#10094;</button>
+                    <button class="carousel-button next" aria-label="Next slide">&#10095;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div id="download-particles-container" class="absolute inset-0 z-0 overflow-hidden"></div>
+        <div class="container relative z-10">
+            <h2 data-aos="fade-up">Ready to Play? 🚀</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Download TapTapGo now and start your puzzle adventure today!</p>
+            <div class="features-list" data-aos="fade-up" data-aos-delay="200">
+                <p><i class="fas fa-check"></i> 5 unique game modes for nonstop fun</p>
+                <p><i class="fas fa-check"></i> Bright, colorful visuals with smooth controls</p>
+                <p><i class="fas fa-check"></i> Great for improving memory, reflexes & focus</p>
+                <p><i class="fas fa-check"></i> Family-friendly and easy to learn</p>
+            </div>
+            <div class="download-buttons" data-aos="fade-up" data-aos-delay="300">
+                <a href="https://play.google.com/store/apps/details?id=com.untitledstudio.taptapgo" target="_blank" class="btn btn-primary"><i class="fab fa-google-play"></i> Get it on Google Play</a>
+                <a href="https://play.google.com/store/apps/details?id=com.untitledstudio.taptapgo" target="_blank" class="btn btn-secondary"><i class="fas fa-star"></i> Rate Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://www.tiktok.com/@taptapgoofficial" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 TapTapGo by UntitledStudio. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="https://www.freeprivacypolicy.com/live/19678e0e-0d48-4d47-a75c-670961abf4bb" class="privacy-link">Privacy Policy</a>
+                        <span class="separator">|</span>
+                        <a href="mailto:taptapgohelp@gmail.com" class="privacy-link">Contact Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
